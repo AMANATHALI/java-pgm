@@ -14,7 +14,7 @@ System.out.println("Enter the element ");
 int n=scan.nextInt();
 for(int j=0;j<a;j++)
 {
-if(n==number[j])
+if(number[j]==n)
 {
 System.out.println(j);
 }}}}
