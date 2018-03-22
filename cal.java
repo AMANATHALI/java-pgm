@@ -18,30 +18,30 @@ operator=scan.next().charAt(0);
 switch(operator)
 {
 case '1' : System.out.println("Enter Two Number : ");
-               a = scan.nextFloat();
-               b = scan.nextFloat();
-               System.out.print( a + b);
-               break;
+a = scan.nextFloat();
+b = scan.nextFloat();
+System.out.print( a + b);
+ break;
 case '2' : System.out.println("Enter Two Number : ");
-                    a = scan.nextFloat();
-                    b = scan.nextFloat();
-                    System.out.print( a - b);
-                    break;
- case '3' : System.out.println("Enter Two Number : ");
-                    a = scan.nextFloat();
-                    b = scan.nextFloat();
-                    System.out.print( a * b);
-                    break;
- case '4' : System.out.println("Enter Two Number : ");
-                    a = scan.nextFloat();
-                    b = scan.nextFloat();
-                    System.out.print( a / b);
-                    break;
- case '5' : System.exit(0);
-                    break;
- default :
-                  System.out.print("Wrong Choice!!!");
-                  break;
+ a = scan.nextFloat();
+ b = scan.nextFloat();
+ System.out.print( a - b);
+ break;
+case '3' : System.out.println("Enter Two Number : ");
+a = scan.nextFloat();
+b = scan.nextFloat();
+System.out.print( a * b);
+break;
+case '4' : System.out.println("Enter Two Number : ");
+a = scan.nextFloat();
+b = scan.nextFloat();
+System.out.print( a / b);
+break;
+case '5' : System.exit(0);
+break;
+default :
+System.out.print("not a operator");
+break;
 }
 }while(operator != 5);       
 }
