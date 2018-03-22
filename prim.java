@@ -8,7 +8,7 @@ int a;
 int b=1;
 System.out.println("Enter the number");
 a=sc.nextInt(); 
-for(int i=2;i<a/i;i++)
+for(int i=2;i<a;i++)
 {
 if(a%i==0)
 {
