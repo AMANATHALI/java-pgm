@@ -19,7 +19,8 @@ break;
 if(b==1)
 {
 System.out.println("the given number is prime");
+}
 else
 {
 System.out.println("the given number is not prime");
-}}}}
+}}}
